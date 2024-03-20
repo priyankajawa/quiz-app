@@ -1,0 +1,102 @@
+.quiz-summary {
+    font-family:'Quicksand', sans-serif ;
+
+    span.success-icon {
+        color: green;
+        font-size: 7rem;
+    }
+
+    h1 {
+        color: green;
+        text-align: center;
+        font-size: 3rem;
+        margin-top: -1.5rem;
+    }
+
+    h2 {
+        color: blue;
+    }
+
+    h4 {
+        color: lighten(#333, 10%);
+    }
+
+    .stats {
+        background-color: #f8f8f8;
+        max-width: 50%;
+        padding: 1.5rem 2rem 2rem 2rem;
+    }
+
+    .stats h4, .stats h2 {
+        text-align: center;
+    }
+
+    .stats .stat {
+        color: #333;
+        font-size: 1rem;
+    }
+
+    section ul {
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+
+    section ul li {
+        display: inline-block;
+    }
+
+    section ul li a {
+        padding: 1.5rem !important;
+    }
+
+    section ul li a:hover {
+        color: #f8f8f8;
+    }
+
+    section ul li:first-child {
+        border: 1px solid blue;
+        margin-right: 1.5rem;
+        transition: 0.3s linear all;
+    }
+
+    section ul li:first-child:hover {
+        background-color: blue;
+    }
+
+    section ul li:last-child {
+        border: 1px solid green;
+        transition: 0.3s linear all;
+    }
+
+    section ul li:last-child:hover {
+        background-color: green;
+    }
+
+    section ul li:last-child a {
+        color: green;
+    }
+
+    section ul li:last-child a:hover {
+        color: #f8f8f8;
+    }
+
+    .no-stats {
+        color: #333;
+        margin: 7rem auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .quiz-summary {
+        font-size: 1.5rem;
+        padding-left: 0.5rem;
+        padding-right:0.5rem;
+    }
+
+    div.container.stats {
+        margin: 0;
+        padding: 1.5rem;
+        max-width: 100%;
+        width: 100%;
+    }
+}
